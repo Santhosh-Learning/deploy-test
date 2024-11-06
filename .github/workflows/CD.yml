@@ -13,7 +13,6 @@ jobs:
           - name: Print CD message
             run: |
               echo "Successful"
-              exit 1
 
     CD-test:
         if: github.event.pull_request.merged == true
